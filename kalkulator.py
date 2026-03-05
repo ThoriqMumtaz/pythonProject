@@ -163,4 +163,7 @@ def kalkulator():
     elif mode in ["konversi suhu", "2", "2.konversi suhu"]:
         Kalkulator_suhu()
     else:
-        print("mode tidak ditemukan")    
+        print("mode tidak ditemukan") 
+
+#memanggil function kalkulator untuk memulai program 
+kalkulator()   
