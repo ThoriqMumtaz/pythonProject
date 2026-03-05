@@ -161,11 +161,12 @@ def kalkulator():
         elif mode in ["konversi suhu", "2", "2.konversi suhu"]:
             Kalkulator_suhu()
         elif mode in ["x", "keluar"]:
+            print("proggram selesai...")
             return
         else:
             print("mode tidak ditemukan")
             input("tekan Enter untuk melanjutkan...")
             kalkulator()
 
-#
+#memanggil fungsi agar program bekerja
 kalkulator() 
