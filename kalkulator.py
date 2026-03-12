@@ -154,7 +154,7 @@ def pemuaian_panjang():
             print("2. kembali")
             out = input(">>> ").lower().strip()
             if out in ["kembali", "2", "2. kembali", "out"]:
-                menu_pemuaian()
+                break
             else:
                 pass
         #mencegah Eror    
@@ -188,7 +188,7 @@ def pemuaian_luas():
             print("2. kembali")
             out = input(">>> ").lower().strip()
             if out in ["kembali", "2", "2. kembali", "out"]:
-                menu_pemuaian()
+                break
             else:
                 pass
 
@@ -218,12 +218,11 @@ def pemuaian_volume():
             print(f"Volume akhir = {V_akhir}")
             
             #mengakhiri loop
-            print("")
             print("\n1. lanjut")
             print("2. kembali")
             out = input(">>> ").lower().strip()
             if out in ["kembali", "2", "2. kembali", "out"]:
-                menu_pemuaian()
+                break
             else:
                 pass
         
@@ -254,7 +253,7 @@ def menu_pemuaian():
         elif pilihan in ["3", "pemuaian volume", "3. pemuaian volume"]:
             pemuaian_volume()
         elif pilihan in ["4", "kembali", "4. kembali"]:
-            kalkulator()
+            break
         #mencegah Eror
         else:
             print("pilihan tidak valid")
